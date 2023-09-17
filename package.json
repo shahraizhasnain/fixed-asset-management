@@ -1,0 +1,14 @@
+{
+  "name": "fixed-asset-management",
+  "version": "1.0.0",
+  "repository": "https://github.com/shahraizhasnain/fixed-asset-management.git",
+  "author": "shahraizhasnain <shahraiz.hasnain@live.com>",
+  "private":"true",
+  "license": "MIT",
+  "workspaces": {
+    "packages": [
+      "backend/*",
+      "frontend/*"
+    ]
+  }
+}
