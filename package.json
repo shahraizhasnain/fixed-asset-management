@@ -5,10 +5,9 @@
   "author": "shahraizhasnain <shahraiz.hasnain@live.com>",
   "private":"true",
   "license": "MIT",
-  "workspaces": {
-    "packages": [
-      "backend/*",
-      "frontend/*"
-    ]
-  }
+  "workspaces": ["packages/*"],
+  "nohoist": [
+    "**/@nestjs",
+    "**/@nestjs/**"
+  ]
 }
